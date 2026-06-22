@@ -1,0 +1,23 @@
+DATA QUALITY SUMMARY
+
+Datasets Analysed: 10
+
+Missing Values:
+- 04_monthly_sip_inflows.csv contains 12 missing values in yoy_growth_pct.
+- All other datasets contain no missing values.
+
+Duplicate Records:
+- No duplicate records found.
+
+AMFI Validation:
+- Total Master Codes: 40
+- Total NAV Codes: 40
+- Missing Count: 0
+- All AMFI codes successfully validated.
+
+Live NAV Fetch:
+- Successfully fetched NAV history from MFAPI.
+- Exported NAV data for HDFC Top 100 Direct and 5 additional schemes.
+
+Overall Assessment:
+- Dataset quality is high and suitable for analytics, SQL analysis, and dashboard development.
