@@ -1,0 +1,6 @@
+import pandas as pd
+
+df = pd.read_csv("data/raw/04_monthly_sip_inflows.csv")
+print(df.columns)
+print(df.head())
+print(df.info())
